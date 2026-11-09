@@ -1,43 +1,54 @@
 <!DOCTYPE html>
-<!-- 
-    SITE 1101 Principles of Information Systems 
-    (c)202X by Name Surname 
+<!--
+    SITE 1101 Principles of Information Systems
+    (c)202X by Name Surname
     Submitted in partial fulfillment of the requirements of the course.
 -->
-<html>
-    <head>
-        <link rel="icon" href="media/ada_logo_color.png" type="image/png">
-        <title>Team Project</title>
-        <link rel="stylesheet" href="styles.css">  
-        <script type="text/javascript" src="scripts.js"></script>      
-    </head>
-    
-    <body>
-      <header>
-          <div class="container">
-              <nav>
-                <a href="index.html"><img src="media/2XSAD_logo.png" alt="Logo" width="80px" height="10%" class="logo"></a>
-                  <ul>
-                      <li><a href="index.html">Home</a></li>
-                      <li><a href="team-members.html">About Us</a></li>
-                      <li><a href="hour-of-code.html">Hour of Code</a></li>
-                      <li><a href="web-project.html">Website Project</a></li>
-                  </ul>
-              </nav>
-          </div>
-      </header>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home | 2xSAD – Team 28</title>
+    <meta name="description" content="Team 28 (2xSAD) – SITE 1101 team project website by Samira, Sabir, Aziz and Davud.">
+    <link rel="icon" href="media/ada_logo_color.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+  </head>
 
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="nav" aria-label="Main">
+        <a class="nav-logo" href="index.html"><img src="media/2XSAD_logo.png" alt="2xSAD – home" width="80" height="80"></a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu"><span class="nav-toggle-icon"></span></button>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="team-members.html">About Us</a></li>
+          <li><a href="hour-of-code.html">Hour of Code</a></li>
+          <li><a href="web-project.html">Website Project</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main" class="card home">
+      <h1 class="title1">Welcome</h1>
+      <p class="made-by">made by</p>
+      <p class="team-letters"><span class="tone-1">2x</span> <span class="tone-2">S</span> <span class="tone-3">A</span> <span class="tone-4">D</span></p>
+      <p class="team-names">
+        <a class="tone-1" href="team-members.html#samira">Samira</a>
+        <a class="tone-1" href="team-members.html#sabir">Sabir</a>
+        <a class="tone-3" href="team-members.html#aziz">Aziz</a>
+        <a class="tone-4" href="team-members.html#davud">Davud</a>
+      </p>
+    </main>
+
+    <footer class="site-footer">
       <div class="social-links">
-        <a href="https://www.instagram.com/ada.site.team28?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><img class="inst-icon" src="media/Icons/Instagram-logo.png" /></a>
-        <a href="https://www.youtube.com/@SITETeam28" target="_blank"><img class="youtube-icon" src="media/Icons/Youtube-logo.png" /></a>
+        <a href="https://www.instagram.com/ada.site.team28/" target="_blank" rel="noopener noreferrer" aria-label="Instagram (opens in a new tab)"><img src="media/Icons/Instagram-logo.png" alt="" width="32" height="32"></a>
+        <a href="https://www.youtube.com/@SITETeam28" target="_blank" rel="noopener noreferrer" aria-label="YouTube (opens in a new tab)"><img src="media/Icons/Youtube-logo.png" alt="" width="32" height="32"></a>
       </div>
-
-      <main id="main-home">
-        <h1 class="title1"> Welcome
-          <p style="margin-top: 100px; animation: fadeInAnimation ease 2s;">made by</p>
-          <p style="font-size:80px; animation: fadeLeftAnimation ease 2s; color:rgb(120, 38, 105);margin-left: 50%;"> 2x <span style="color:rgb(92, 53, 89)">S</span> <span style="color:rgb(142, 89, 136)">A</span> <span style="color:rgb(158, 53, 144)">D</span></p>
-          <p style="margin-left: 60%; animation: fadeRightAnimation ease 2s;" ><span style="color:rgb(120, 38, 105)" >Samira </span> <span style="color:rgb(120, 38, 105)">Sabir</span> <span style="color:rgb(142, 89, 136)">Aziz</span> <span style="color:rgb(158, 53, 144)">Davud</span></p>
-        </h1>
-      </main> 
-    </body>
+      <p>© 2024 Team 28 · 2xSAD · ADA University</p>
+    </footer>
+  </body>
 </html>

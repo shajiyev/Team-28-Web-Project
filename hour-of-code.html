@@ -1,78 +1,87 @@
 <!DOCTYPE html>
-<!-- 
-    SITE 1101 Principles of Information Systems 
+<!--
+    SITE 1101 Principles of Information Systems
     (c)202X by Name Surname
     Submitted in partial fulfillment of the requirements of the course.
 -->
-<html>
-    <head>
-        <link rel="icon" href="media/ada_logo_color.png" type="image/png">
-        <title>Team Project</title>
-        <link rel="stylesheet" href="styles.css">  
-        <script type="text/javascript" src="scripts.js"></script>      
-    </head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hour of Code | 2xSAD – Team 28</title>
+    <meta name="description" content="How Team 28 (2xSAD) taught coding to 26 school students during the Hour of Code.">
+    <link rel="icon" href="media/ada_logo_color.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+  </head>
 
-    <body>
-        <header>
-            <div class="container">
-                <nav>
-                    <a href="index.html"><img src="media/2XSAD_logo.png" alt="Logo" width="80px" height="10%" class="logo"></a>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="team-members.html">About Us</a></li>
-                        <li><a href="hour-of-code.html">Hour of Code</a></li>
-                        <li><a href="web-project.html">Website Project</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        
-        <div class="social-links">
-            <a href="https://www.instagram.com/ada.site.team28?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><img class="inst-icon" src="media/Icons/Instagram-logo.png" /></a>
-            <a href="https://www.youtube.com/@SITETeam28" target="_blank"><img class="youtube-icon" src="media/Icons/Youtube-logo.png" /></a>
-        </div>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-        <main id="main-of-hourofcode">   
-            <h1 class="hour-of-code-h1">The Hour of Code</h1>
-            <img class="first-img" src='media/insta team 28.jpg'>
-            <h2 class="hour-of-code-h2">The Mission and First Step</h2>
-            <p class="hour-of-code-p">In hour-of-code we should teach codding to 20 children who are
-                don't have any information about it. Our first mission was to find 20 participants.
-                Instructors advised us to find students from neighborhood but we could not
-                find them, that is why we went to the course which included 5-9 class students and
-                they learn Azerbaijani languge so they did not know any information about
-                our topic. After finding children we should have provided them with the needed equipment, so we went to the school where previously Davud was studying.
-            </p>
-            <h2 class="hour-of-code-h2">The Second Step</h2>
-            <p class="hour-of-code-p">In class firstly we explained to children what is our aim, then
-                Sabir and Davud started the presentation about ADA university and persuaded children 
-            to come to ADA. Their eyes were full of enthusiasm and with every new piece of information about the university they were getting more involved.</p>
-            <div class="second-img">
-               <img src="media/team 28-1.jpg">
-               <img src="media/team 28-2.jpg">
-            </div>
-            <h2 class="hour-of-code-h2">The Third Step</h2>
-            <p class="hour-of-code-p"> Davud provided the basic information to participants about codding. Then the whole class started working.</p>
-            <img class="third-img" src="media/team 28-3.jpg"> 
-            <h2 class="hour-of-code-h2">The Fourth Step</h2>
-            <p class="hour-of-code-p">Sabir,Aziz, and Samira dealed with children individually and Davud worked with the rest 
-            of them because there were 20 computers for 26 participants.</p>
-            <div class="fourth-img">
-               <img src="media/team 28-4.jpg">
-               <img src="media/team 28-5.jpg">
-               <img src="media/team 28-6.jpg">
-            </div>
-            <h2 class="hour-of-code-h2">Problems</h2>
-            <div class="centered-ul">
-                <ul id="Problems">
-                    <li><p class="hour-of-code-p">Certificates: We had 20 certificates but then we learned that there were 26 children. 
-                        After the lesson we printed 6 certificates and presented them to the rest of participants.</p>
-                    </li>
-                    <li><p class="hour-of-code-p">Childrens' noises: They could not adapt to the lesson and were making a lot of voice
-                        but then we managed it all by telling them that this way we will not be able to teach them anything.</p>
-                    </li>
-                </ul>
-            </div>
-        </main>
-    </body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main">
+        <a class="nav-logo" href="index.html"><img src="media/2XSAD_logo.png" alt="2xSAD – home" width="80" height="80"></a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu"><span class="nav-toggle-icon"></span></button>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="team-members.html">About Us</a></li>
+          <li><a href="hour-of-code.html" aria-current="page">Hour of Code</a></li>
+          <li><a href="web-project.html">Website Project</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main" class="card article">
+      <h1 class="page-title">The Hour of Code</h1>
+      <div class="photo-grid single reveal reveal-up">
+        <img class="photo" src="media/insta team 28.jpg" alt="Our team with all the participants holding their certificates" width="750" height="548">
+      </div>
+
+      <h2 class="reveal reveal-right">The Mission and First Step</h2>
+      <p class="reveal reveal-left">In the Hour of Code, we had to teach coding to 20 children who didn't have any information about it. Our first mission was to find 20 participants.
+        Instructors advised us to find students from the neighborhood, but we could not find them. That is why we went to a course which included 5–9 class students
+        who study in the Azerbaijani language, so they did not know anything about our topic. After finding the children, we had to provide them with the needed equipment, so we went to the school where Davud previously studied.</p>
+
+      <h2 class="reveal reveal-right">The Second Step</h2>
+      <p class="reveal reveal-left">In class, we first explained our aim to the children, then Sabir and Davud started the presentation about ADA University and persuaded the children
+        to come to ADA. Their eyes were full of enthusiasm and with every new piece of information about the university they were getting more involved.</p>
+      <div class="photo-grid reveal reveal-up">
+        <img class="photo" src="media/team 28-1.jpg" alt="Presenting ADA University to the students" width="750" height="561" loading="lazy">
+        <img class="photo" src="media/team 28-2.jpg" alt="Team members talking to the class during the presentation" width="750" height="560" loading="lazy">
+      </div>
+
+      <h2 class="reveal reveal-right">The Third Step</h2>
+      <p class="reveal reveal-left">Davud provided the basic information about coding to the participants. Then the whole class started working.</p>
+      <div class="photo-grid single reveal reveal-up">
+        <img class="photo" src="media/team 28-3.jpg" alt="Davud explaining the basics of coding while students work at the computers" width="750" height="567" loading="lazy">
+      </div>
+
+      <h2 class="reveal reveal-right">The Fourth Step</h2>
+      <p class="reveal reveal-left">Sabir, Aziz, and Samira worked with the children individually and Davud worked with the rest
+        of them, because there were 20 computers for 26 participants.</p>
+      <div class="photo-grid reveal reveal-up">
+        <img class="photo" src="media/team 28-4.jpg" alt="Helping a student with a coding exercise" width="750" height="569" loading="lazy">
+        <img class="photo" src="media/team 28-5.jpg" alt="Students working on coding exercises at the computers" width="750" height="569" loading="lazy">
+        <img class="photo" src="media/team 28-6.jpg" alt="A team member guiding a student at the computer" width="750" height="564" loading="lazy">
+      </div>
+
+      <h2 class="reveal reveal-right">Problems</h2>
+      <ul class="problems reveal reveal-right">
+        <li><p><strong>Certificates:</strong> We had 20 certificates, but then we learned that there were 26 children.
+          After the lesson, we printed 6 more certificates and presented them to the rest of the participants.</p>
+        </li>
+        <li><p><strong>Children's noise:</strong> They could not adapt to the lesson and were making a lot of noise,
+          but then we managed it all by telling them that this way we would not be able to teach them anything.</p>
+        </li>
+      </ul>
+    </main>
+
+    <footer class="site-footer">
+      <div class="social-links">
+        <a href="https://www.instagram.com/ada.site.team28/" target="_blank" rel="noopener noreferrer" aria-label="Instagram (opens in a new tab)"><img src="media/Icons/Instagram-logo.png" alt="" width="32" height="32"></a>
+        <a href="https://www.youtube.com/@SITETeam28" target="_blank" rel="noopener noreferrer" aria-label="YouTube (opens in a new tab)"><img src="media/Icons/Youtube-logo.png" alt="" width="32" height="32"></a>
+      </div>
+      <p>© 2024 Team 28 · 2xSAD · ADA University</p>
+    </footer>
+  </body>
 </html>
